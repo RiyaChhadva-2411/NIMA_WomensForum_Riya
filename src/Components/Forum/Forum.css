@@ -5,9 +5,6 @@
   /*   background: url("image.svg"), #f6f6f6; */
   background-repeat: no-repeat;
 }
-.form-container{
-  background-color: #E5E5E5;
-}
 /*desktops*/
 @media only screen and (min-width: 1200px) {
   .mobile {

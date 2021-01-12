@@ -52,6 +52,16 @@
   line-height: 15px;
   margin-bottom: 16px;
 }
+.Leader__rightsecond{
+  color: #2145b7;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  line-height: 15px;
+  margin-bottom: 16px;
+  width: 293px;
+  
+}
 .Leader__details{
   font-size: 18px;
   line-height: 22px;
@@ -113,7 +123,134 @@
 }
 
 /*For small devices*/
-@media (min-width: 576px) and (max-width: 767px) {
+@media screen and (max-width: 576px){
+  .Leader__main {
+  margin-left: 24px;
+  margin-right:24px;
+}
+.Leader__middlediv {
+  margin-left: 24px;
+  margin-right:24px;
+  background-color: #DDE8FD;
+}
+  .Leader__image1{
+    border-radius: 1rem;
+    width: 167px;
+    height: 230px;
+    margin-top: 55px;
+    margin-left: 0px;
+  }
+  .Leader__heading {
+    /* margin-top: 80px; */
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 21px;
+  }
+  .Leader__paragraph {
+    font-size: 15px;
+    /* font-weight: normal; */
+  }
+  #Leader__justify {
+    text-align: justify;
+    font-weight:500;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 22px;
+    color: #000000;
+  }
+  .Leader__first {
+    float: right;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+    top: 140px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .Leader__second {
+    color: #2145b7;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 15px;
+    margin-bottom: 16px;
+    width: 140px;
+    text-align:left;
+}
+  .Leader__rightsecond{
+    color: #2145b7;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 15px;
+    margin-bottom: 16px;
+    width: 140px;
+    text-align:end;
+  }
+  .Leader__details{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    width: 140px;
+    height: 62px;
+    color: #000000;
+  }
+  .Leader__phone{
+    margin-top: 12px;
+    margin-left: 0px;
+  }
+  .Leader__rightdetails{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    width: 153px;
+    height: 66px;
+    color: #000000;
+    text-align: right;
+  }
+  .Leader__rightphone{
+    margin-top: 12px;
+  }
+  .Leader__subheading {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    line-height: 22px;
+    font-size: 19px;
+    margin-top: 55px;
+    text-align: justify;
+  }
+  .Leader__link {
+    font-weight: bold;
+    font-size: 13px;
+    color: #2145b7;
+  }
+  
+  /* Third row */
+  .Leader__mainrow {
+    /* margin-top: 144px; */
+    margin-bottom: 72px;
+  }
+  .Leader__image2 {
+    height: 230px;
+    width: 167px;
+    border-radius: 1rem;
+    float: right;
+    margin-top: 55px;
+  }
+  .Leader__fourth {
+    float: left;
+    position: absolute;
+    padding-top: 140px;
+    right: 200px;
+    font-size: 18px;
+  }
+}
+
+
+/*For small and medium devices*/
+@media (min-width: 576px) and (max-width: 800px) {
   .Leader__main {
     margin-left: 10px;
     margin-right: 10px;
@@ -149,90 +286,7 @@
   }
 }
 
-/*For extra small devices*/
-@media (max-width: 575px) and (min-width: 340px) {
-  .Leader__main {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .Leader__middlediv {
-    margin-left: 0.5px;
-    margin-right: 0.5px;
-    padding: 0 15px;
-    background-color: #eef3fe;
-  }
-  .Leader__image1 {
-    height: 250px;
-    width: auto;
-  }
-  .Leader__image2 {
-    height: 250px;
-    width: auto;
-    float: right;
-  }
-  .Leader__paragraph {
-    font-size: 15px;
-  }
-  .Leader__first {
-    left: 220px;
-  }
-  .Leader__link {
-    font-size: 17px;
-  }
-  .Leader__fourth {
-    right: 225px;
-    padding-top: 190px;
-  }
-  .Leader__subheading {
-    margin-top: 100px;
-  }
-  .Leader__second {
-    font-size: 15px;
-  }
-  .Leader__details {
-    font-size: 14px;
-  }
-}
-/*For extra extra small devices*/
-@media (max-width: 340px) {
-  .Leader__main {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .Leader__middlediv {
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #eef3fe;
-  }
-  .Leader__image1 {
-    height: 230px;
-    width: auto;
-  }
-  .Leader__image2 {
-    height: 230px;
-    width: auto;
-    float: right;
-  }
-  .Leader__paragraph {
-    font-size: 12px;
-  }
-  .Leader__first {
-    left: 225px;
-  }
-  .Leader__link {
-    font-size: 13px;
-  }
-  .Leader__fourth {
-    right: 220px;
-    padding-top: 190px;
-  }
-  .Leader__subheading {
-    margin-top: 100px;
-  }
-  .Leader__second {
-    font-size: 13px;
-  }
-  .Leader__details {
-    font-size: 12px;
-  }
+/*For medium and large devices*/
+@media(min-width: 800px) and (max-width: 1200px){
+  
 }

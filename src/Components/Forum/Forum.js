@@ -567,7 +567,7 @@ class Forum extends Component {
 
   render() {
     return (
-      <div className="form-container Forum__MainDiv">
+      <div className="orm-container Forum__MainDiv">
         <div className="row Forum__row  align-items-end">
           <div className="col-md-5" id="form-card">
             <h5 className="Forum__txthead">MEET OUR LEADERS</h5>

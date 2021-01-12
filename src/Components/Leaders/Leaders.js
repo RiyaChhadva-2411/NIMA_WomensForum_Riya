@@ -57,7 +57,7 @@ function Leaders() {
         <div className="Leader__mainrow row">
           <div className="col-lg-7 col-sm-12 col-12 order-lg-10 order-1">
             <div className="Leader__fourth">
-              <div className="Leader__second">DR. MRS. SADHANA KULKARNI</div>
+              <div className="Leader__rightsecond">DR. MRS. SADHANA KULKARNI</div>
               <div className="Leader__rightdetails">
                 President
                 Women's Forum
