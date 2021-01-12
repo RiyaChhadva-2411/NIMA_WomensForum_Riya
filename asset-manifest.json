@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/deploy-womens_forum/static/css/main.432c2120.chunk.css",
+    "main.js": "/deploy-womens_forum/static/js/main.bf4704c6.chunk.js",
+    "main.js.map": "/deploy-womens_forum/static/js/main.bf4704c6.chunk.js.map",
+    "runtime-main.js": "/deploy-womens_forum/static/js/runtime-main.d18d7b09.js",
+    "runtime-main.js.map": "/deploy-womens_forum/static/js/runtime-main.d18d7b09.js.map",
+    "static/css/2.28efe657.chunk.css": "/deploy-womens_forum/static/css/2.28efe657.chunk.css",
+    "static/js/2.4322c4d9.chunk.js": "/deploy-womens_forum/static/js/2.4322c4d9.chunk.js",
+    "static/js/2.4322c4d9.chunk.js.map": "/deploy-womens_forum/static/js/2.4322c4d9.chunk.js.map",
+    "index.html": "/deploy-womens_forum/index.html",
+    "static/css/2.28efe657.chunk.css.map": "/deploy-womens_forum/static/css/2.28efe657.chunk.css.map",
+    "static/css/main.432c2120.chunk.css.map": "/deploy-womens_forum/static/css/main.432c2120.chunk.css.map",
+    "static/js/2.4322c4d9.chunk.js.LICENSE.txt": "/deploy-womens_forum/static/js/2.4322c4d9.chunk.js.LICENSE.txt",
+    "static/media/Group 725.d3702b36.svg": "/deploy-womens_forum/static/media/Group 725.d3702b36.svg",
+    "static/media/NIMA Hero-sm.e5b42c88.svg": "/deploy-womens_forum/static/media/NIMA Hero-sm.e5b42c88.svg",
+    "static/media/image.7a7c1f31.svg": "/deploy-womens_forum/static/media/image.7a7c1f31.svg",
+    "static/media/img.617fedc8.jpeg": "/deploy-womens_forum/static/media/img.617fedc8.jpeg",
+    "static/media/styles.css": "/deploy-womens_forum/static/media/revicons.e8746a62.woff",
+    "static/media/temp.607ffc25.PNG": "/deploy-womens_forum/static/media/temp.607ffc25.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d18d7b09.js",
+    "static/css/2.28efe657.chunk.css",
+    "static/js/2.4322c4d9.chunk.js",
+    "static/css/main.432c2120.chunk.css",
+    "static/js/main.bf4704c6.chunk.js"
+  ]
+}
