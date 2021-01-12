@@ -6,35 +6,35 @@ import heroSm from '../../Svg/Group 725.svg'
 function Hero() {
   return (
     <div>
-    <img src={heroDesk} alt="hero" className="hero-img" id="desktop"/>
-    <img src={heroSm} alt="hero" className="hero-img" id="mobile"/>
-    <div className="hero">
+    <img src={heroDesk} alt="hero" className="Hero__hero-img" id="Hero__desktop"/>
+    <img src={heroSm} alt="hero" className="Hero__hero-img" id="Hero__mobile"/>
+    <div className="Hero__hero">
       <div>
         {/* row for hero component */}
-        <div className="hero-row row">
+        <div className="Hero__hero-row row">
           <div className="col-12 col-md-6">
             {/* pre title as specified in the design */}
-            <div className="pre-title">NIMA'S WOMEN'S FORUM</div>
+            <div className="Hero__pre-title">NIMA'S WOMEN'S FORUM</div>
             {/* main hero title */}
-            <div className="hero-title">
+            <div className="Hero__hero-title">
               THE LARGEST ORGANIZATION
               <br />
               REPRESENTING INSTITUTIONALLY
-              <div className="highlight-cyan"></div>
+              <div className="Hero__highlight-cyan"></div>
               <br />
-              <div className="highlight-bottom">QUALIFIED ISM GRADUATES</div>
+              <div className="Hero__highlight-bottom">QUALIFIED ISM GRADUATES</div>
             </div>
             {/* hero content */}
-            <div className="hero-content">
+            <div className="Hero__hero-content">
               Welcome to the official website of the Indian Dental Association,
               the premier organization of dental professionals in India. IDA the
               dignity and honour of its members, besides enhancing the image of
               the profession.
             </div>
             {/* registration link */}
-            <div className="cta">
+            <div className="Hero__cta">
               RULES & MEMBERSHIP
-              <span className="cta-icon">
+              <span className="Hero__cta-icon">
                 <a href="/">
                   <svg
                     width="2em"
@@ -53,17 +53,17 @@ function Hero() {
               </span>
             </div>
             {/* two rectangle cards */}
-            <div className="count grid-container">
+            <div className="Hero__count Hero__grid-container">
               {/* first rectangle card of "4 state branches" */}
-              <div className="item2 card1">
-                <span className="card-bold">4 </span> <br />
-                <div className="card-content">STATE BRANCHES</div>
+              <div className="Hero__item2 Hero__card1">
+                <span className="Hero__card-bold">4 </span> <br />
+                <div className="Hero__card-content">STATE BRANCHES</div>
               </div>
               {/* Second card of "66 Local branches" */}
-              <div className=" item3 card2">
-                <span className="card-bold">66</span>
+              <div className="Hero__item3 Hero__card2">
+                <span className="Hero__card-bold">66</span>
                 <br />
-                <div className="card-content">LOCAL BRANCHES</div>
+                <div className="Hero__card-content">LOCAL BRANCHES</div>
               </div>
             </div>
             <br />
@@ -74,10 +74,10 @@ function Hero() {
         <br />
         <br />
         <div className="main">
-        <div className="row" id="shift-left">
+        <div className="row" id="Hero__shift-left">
           <div className="col-md-12">
-            <div className="heading">MEET OUR LEADERS</div>
-            <div className="paragraph">
+            <div className="Hero__heading">MEET OUR LEADERS</div>
+            <div className="Hero__paragraph">
               Welcome to the official website of the NIMA Womens Forum,
               the premier organisation of ISM professionals in India. NIMA
               the dignity and honour of its members, besides enhancing the

@@ -1,76 +1,112 @@
 /* For Extra large devices (large laptops and desktops) */
 
-.main {
+.Leader__main {
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.middlediv {
+.Leader__middlediv {
   margin-left: 100px;
   margin-right: 100px;
 }
 /* first row */
-.heading {
+.Leader__heading {
   /* margin-top: 80px; */
   font-weight: 900;
   font-size: 35px;
   margin-bottom: 21px;
 }
-.paragraph {
+.Leader__paragraph {
   font-size: 15px;
   /* font-weight: normal; */
 }
-#justify {
+#Leader__justify {
   text-align: justify;
-  font-weight: 200;
+  font-weight:300;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 22px;
+  color: #000000;
 }
 /* second row */
-.image1 {
+.Leader__image1 {
   height: 390px;
   width: 300px;
   border-radius: 1rem;
   margin-top: 55px;
 }
-.first {
+.Leader__first {
   float: right;
   position: absolute;
   left: 370px;
   bottom: 0;
+  top: 321px;
   font-size: 18px;
   text-align: left;
 }
-.second {
+.Leader__second {
   color: #2145b7;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  line-height: 15px;
+  margin-bottom: 16px;
 }
-.subheading {
-  font-weight: bold;
+.Leader__details{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  width: 153px;
+  height: 66px;
+  color: #000000;
+}
+.Leader__phone{
+  margin-top: 12px;
+  margin-left: 0px;
+}
+.Leader__rightdetails{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  width: 153px;
+  height: 66px;
+  color: #000000;
+  text-align: right;
+}
+.Leader__rightphone{
+  margin-top: 12px;
+}
+.Leader__subheading {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  line-height: 22px;
   font-size: 24px;
-  margin-top: 50px;
+  margin-top: 55px;
   text-align: justify;
 }
-.link {
+.Leader__link {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
+  color: #2145b7;
 }
 
 /* Third row */
-.mainrow {
+.Leader__mainrow {
   /* margin-top: 144px; */
   margin-bottom: 72px;
 }
-.image2 {
+.Leader__image2 {
   height: 396px;
   width: 316px;
   border-radius: 1rem;
   float: right;
   margin-top: 55px;
 }
-.fourth {
+.Leader__fourth {
   float: left;
   position: absolute;
-  text-align: right;
   padding-top: 300px;
   right: 370px;
   font-size: 18px;
@@ -78,36 +114,36 @@
 
 /*For small devices*/
 @media (min-width: 576px) and (max-width: 767px) {
-  .main {
+  .Leader__main {
     margin-left: 10px;
     margin-right: 10px;
   }
-  #leader-css {
+  #Leader__leader-css {
     margin-left: -25px;
   }
-  .middlediv {
+  .Leader__middlediv {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .image1 {
+  .Leader__image1 {
     height: 350px;
     width: 250px;
   }
-  .image2 {
+  .Leader__image2 {
     height: 350px;
     width: 250px;
     float: right;
   }
-  .paragraph {
+  .Leader__paragraph {
     font-size: 17px;
   }
-  .first {
+  .Leader__first {
     left: 310px;
   }
-  .link {
+  .Leader__link {
     font-size: 17px;
   }
-  .fourth {
+  .Leader__fourth {
     right: 310px;
     padding-top: 220px;
   }
@@ -115,88 +151,88 @@
 
 /*For extra small devices*/
 @media (max-width: 575px) and (min-width: 340px) {
-  .main {
+  .Leader__main {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .middlediv {
+  .Leader__middlediv {
     margin-left: 0.5px;
     margin-right: 0.5px;
     padding: 0 15px;
     background-color: #eef3fe;
   }
-  .image1 {
+  .Leader__image1 {
     height: 250px;
     width: auto;
   }
-  .image2 {
+  .Leader__image2 {
     height: 250px;
     width: auto;
     float: right;
   }
-  .paragraph {
+  .Leader__paragraph {
     font-size: 15px;
   }
-  .first {
+  .Leader__first {
     left: 220px;
   }
-  .link {
+  .Leader__link {
     font-size: 17px;
   }
-  .fourth {
+  .Leader__fourth {
     right: 225px;
     padding-top: 190px;
   }
-  .subheading {
+  .Leader__subheading {
     margin-top: 100px;
   }
-  .second {
+  .Leader__second {
     font-size: 15px;
   }
-  .details {
+  .Leader__details {
     font-size: 14px;
   }
 }
 /*For extra extra small devices*/
 @media (max-width: 340px) {
-  .main {
+  .Leader__main {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .middlediv {
+  .Leader__middlediv {
     margin-left: 10px;
     margin-right: 10px;
     background-color: #eef3fe;
   }
-  .image1 {
+  .Leader__image1 {
     height: 230px;
     width: auto;
   }
-  .image2 {
+  .Leader__image2 {
     height: 230px;
     width: auto;
     float: right;
   }
-  .paragraph {
+  .Leader__paragraph {
     font-size: 12px;
   }
-  .first {
+  .Leader__first {
     left: 225px;
   }
-  .link {
+  .Leader__link {
     font-size: 13px;
   }
-  .fourth {
+  .Leader__fourth {
     right: 220px;
     padding-top: 190px;
   }
-  .subheading {
+  .Leader__subheading {
     margin-top: 100px;
   }
-  .second {
+  .Leader__second {
     font-size: 13px;
   }
-  .details {
+  .Leader__details {
     font-size: 12px;
   }
 }

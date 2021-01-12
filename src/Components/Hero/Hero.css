@@ -9,19 +9,19 @@
   background-size: 72%, 50%; 
 }*/
 /* change the top margin of the row according to requirement */
-.hero-img {
+.Hero__hero-img {
   position: absolute;
   top: 190px;
   right: 0px;
   z-index: 9999;
 }
-#desktop {
+#Hero__desktop {
   display: block;
 }
-#mobile {
+#Hero__mobile {
   display: none;
 }
-.hero-row {
+.Hero__hero-row {
   margin-left: 100px;
   margin-top: 146px;
 }
@@ -29,7 +29,7 @@
   margin-right: 0;
 }
 /* pre title:" NIMA'S WOMEN'S FORUM "*/
-.pre-title {
+.Hero__pre-title {
   font-size: 18px;
   color: #2145b7;
   line-height: 27px;
@@ -38,7 +38,7 @@
 }
 
 /* main sub title:" the largest..." */
-.hero-title {
+.Hero__hero-title {
   margin-top: 8px;
   font-size: 35px;
   font-weight: 600;
@@ -46,16 +46,16 @@
   color: #000000;
   font-family: 'Poppins', sans-serif;
 }
-.highlight-cyan {
+.Hero__highlight-cyan {
   border-bottom: 10px solid #83f3d1;
   margin-top: -20px;
   width: 33.5vw;
 }
-.highlight-bottom {
+.Hero__highlight-bottom {
   margin-top: -38px;
 }
 /* hero content */
-.hero-content {
+.Hero__hero-content {
   margin-top: 18px;
   font-size: 15px;
   font-weight: 400;
@@ -65,7 +65,7 @@
 }
 
 /* rules and member ship Registration link div */
-.cta {
+.Hero__cta {
   margin-top: 7px;
   font-size: 18px;
   font-weight: 500;
@@ -74,13 +74,13 @@
 }
 
 /* this class has svg icon  */
-.cta-icon {
+.Hero__cta-icon {
   margin-left: 10px;
   font-weight: 500;
 }
 
 /* the class of div containing both the rectangular cards */
-.count {
+.Hero__count {
   margin-top: 65px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -89,7 +89,7 @@
 }
 
 /*  rectangle cards , took differently cuz 2nd card had to be given margin left*/
-.card1 {
+.Hero__card1 {
   width: 110px;
   height: 115px;
   border: none;
@@ -99,8 +99,9 @@
   background-color: #00c78c;
   color: white;
   margin-left: 120px;
+  
 }
-.card2 {
+.Hero__card2 {
   width: 110px;
   height: 115px;
   border: 1px solid #2145b7;
@@ -108,42 +109,44 @@
   text-align: center;
   padding: 24px 15px 24px 15px;
   margin-left: -120px;
+  color: #656565;
+  
 }
 
-.grid-container {
+.Hero__grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px 50px;
 }
 
-.grid-container > div {
+.Hero__grid-container > div {
   text-align: center;
 }
 
-.item2,
-.item3 {
+.Hero__item2, .Hero__item3 {
   grid-row-start: 1;
   grid-row-end: 10;
 }
-.item2 {
+.Hero__item2 {
   grid-column-start: 1;
   grid-column-end: 9;
   margin-top: 50px;
 }
-.item3 {
+.Hero__item3 {
   grid-column-start: 10;
   grid-column-end: 18;
   margin-top: 50px;
 }
-.heading{
+.Hero__heading{
   margin-top: 80px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 35px;
   line-height: 15px;
   color: #000000;
+  margin-left: 100px;
 }
-.paragraph{
+.Hero__paragraph{
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
   font-size: 15px;
@@ -151,17 +154,21 @@
   color: #656565;
   margin-top: 33px;
   width: 470px;
+  margin-left: 100px;
 }
 /* the nos. inside card which are bold e.g: 4,6*/
-.card-title {
+.Hero__card-title {
   font-size: 24px;
   font-weight: 600;
 }
-
+.Hero__card-bold{
+  font-weight: 600;
+}
 /* card content */
-.card-content {
+.Hero__card-content {
   font-size: 15px;
   line-height: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 576px) {
@@ -173,7 +180,7 @@
     background-position-y: 90vw, 72vw;
     background-size: 110%, 97%;
   } */
-  .hero-img {
+  .Hero__hero-img {
     position: absolute;
     top: 400px;
     right: 0px;
@@ -187,28 +194,27 @@
     display: block;
   }
 
-  .item1 {
+  .Hero__item1 {
     grid-row-start: 5;
     grid-row-end: 15;
     grid-column-start: 1;
     grid-column-end: 18;
     background-color: #dde8fd;
   }
-  .item2,
-  .item3 {
+  .Hero__item2 , .Hero__item3 {
     grid-row-start: 1;
     grid-row-end: 10;
   }
-  .item2 {
+  .Hero__item2 {
     grid-column-start: 1;
     grid-column-end: 4;
   }
-  .item3 {
+  .Hero__item3 {
     grid-column-start: 4;
     grid-column-end: 8;
   }
   /* changing margin top of this row, will cause change of positions of fixed rectangular cards */
-  .hero-row {
+  .Hero__hero-row {
     margin-left: 0px;
     margin-top: 79px;
     background-size: 105%;
@@ -216,51 +222,51 @@
     background-position-y: 100vw;
   }
 
-  .pre-title {
+  .Hero__pre-title {
     font-size: 16px;
     color: #2145b7;
   }
 
-  .hero-title {
+  .Hero__hero-title {
     margin-top: 13px;
     font-size: 19px;
     font-weight: 600;
     letter-spacing: -1px;
   }
-  .highlight-cyan {
+  .Hero__highlight-cyan {
     border-bottom: 10px solid #83f3d1;
     margin-top: -14px;
     width: 70vw;
   }
-  .highlight-bottom {
+  .Hero__highlight-bottom {
     margin-top: -20px;
   }
-  .hero-content {
+  .Hero__hero-content {
     margin-top: 17px;
     font-size: 13px;
     width: 90%;
   }
 
-  .cta {
+  .Hero__cta {
     margin-top: 26px;
     font-size: 13px;
     color: #2145b7;
     font-weight: 500;
   }
 
-  .cta-icon {
+  .Hero__cta-icon {
     margin-left: 10px;
     font-weight: 500;
   }
 
   /* the margin top is added by prediction, should be corrected */
-  .count {
+  .Hero__count {
     margin-top: 400px;
   }
 
   /*  rectangle cards */
 
-  .card1 {
+  .Hero__card1 {
     width: 75px;
     height: 80px;
     border: none;
@@ -270,7 +276,7 @@
     color: white;
     background-color: #00c78c;
   }
-  .item2 {
+  .Hero__item2 {
     width: 75px;
     height: 80px;
     border: none;
@@ -280,7 +286,7 @@
     color: white;
     background-color: #00c78c;
   }
-  .card2 {
+  .Hero__card2 {
     width: 75px;
     height: 80px;
     border: 1px solid #2145b7;
@@ -289,7 +295,7 @@
     margin-left: 20px !important;
     padding: 19px 11px 8px 11px;
   }
-  .item3 {
+  .Hero__item3 {
     width: 75px;
     height: 80px;
     border: 1px solid #2145b7;
@@ -300,12 +306,12 @@
   }
 
   /* the nos. inside card which are bold */
-  .card-title {
+  .Hero__card-title {
     font-size: 15px;
     font-weight: 900;
   }
 
-  .card-content {
+  .Hero__card-content {
     font-size: 10px;
     line-height: 0.9rem;
   }
@@ -326,88 +332,87 @@
   #mobile {
     display: none;
   }
-  .hero-img {
+  .Hero__hero-img {
     position: absolute;
     top: 220px;
     right: 60px;
     z-index: 9999;
     height: 370px;
   }
-  .hero-row {
+  .Hero__hero-row {
     margin-left: 0px;
     margin-top: 85px;
     background-size: 105%;
     background-position-x: -15vw !important;
     background-position-y: 100vw;
   }
-  #shift-left {
+  #Hero__shift-left {
     margin-left: -50px;
     padding-right: 50px;
   }
-  .item1 {
+  .Hero__item1 {
     grid-row-start: 5;
     grid-row-end: 15;
     grid-column-start: 1;
     grid-column-end: 9;
     background-color: #dde8fd;
   }
-  .item2,
-  .item3 {
+  .Hero__item2, .Hero__item3 {
     grid-row-start: 1;
     grid-row-end: 10;
   }
-  .item2 {
+  .Hero__item2 {
     grid-column-start: 1;
     grid-column-end: 4;
   }
-  .item3 {
+  .Hero__item3 {
     grid-column-start: 4;
     grid-column-end: 9;
   }
-  .pre-title {
+  .Hero__pre-title {
     font-size: 12px;
     color: #2145b7;
   }
 
-  .hero-title {
+  .Hero__hero-title {
     margin-top: 8px;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -1px;
   }
-  .highlight-cyan {
+  .Hero__highlight-cyan {
     border-bottom: 10px solid #83f3d1;
     margin-top: -15px;
     width: 36vw;
   }
-  .hero-content {
+  .Hero__hero-content {
     margin-top: 16px;
     font-size: 12px;
     font-weight: 450;
   }
-  .highlight-bottom {
+  .Hero__highlight-bottom {
     margin-top: -25px;
   }
   /* rules and member ship Registration link div */
-  .cta {
+  .Hero__cta {
     margin-top: 30px;
     font-size: 18px;
     color: #2145b7;
   }
 
   /* this class has svg icon  */
-  .cta-icon {
+  .Hero__cta-icon {
     margin-left: 10px;
     font-weight: 500;
   }
 
   /* the class of div containing both the rectangular cards */
-  .count {
+  .Hero__count {
     margin-top: 50px;
   }
 
   /*  rectangle cards , took differently cuz 2nd card had to be given margin left*/
-  .card1 {
+  .hero__card1 {
     width: 80px;
     height: 85px;
     border: none;
@@ -417,10 +422,10 @@
     background-color: #00c78c;
     color: white;
   }
-  .item1 {
+  .Hero__item1 {
     grid-column-end: 15;
   }
-  .item2 {
+  .Hero__item2 {
     width: 80px;
     height: 85px;
     border: none;
@@ -430,7 +435,7 @@
     background-color: #00c78c;
     color: white;
   }
-  .card2 {
+  .Hero__card2 {
     width: 80px;
     height: 85px;
     border: 1px solid #2145b7;
@@ -439,7 +444,7 @@
     margin-left: 40px !important;
     padding: 18px 12px 9px 12px;
   }
-  .item3 {
+  .Hero__item3 {
     width: 80px;
     height: 85px;
     border: 1px solid #2145b7;
@@ -449,19 +454,19 @@
     padding: 18px 12px 9px 12px;
   }
   /* the nos. inside card which are bold e.g: 4,6*/
-  .card-title {
+  .Hero__card-title {
     font-size: 16px;
     font-weight: 600;
   }
 
   /* card content */
-  .card-content {
+  .Hero__card-content {
     font-size: 11px;
     line-height: 1rem;
   }
 }
 
-@media (max-width: 340px) {
+/* @media (max-width: 340px) {
   .highlight-cyan {
     border-bottom: 10px solid #83f3d1;
     margin-top: -15px;
@@ -477,7 +482,7 @@
     z-index: 9999;
     height: 320px;
   }
-}
+} */
 /*
 #2145B7 - instead of blue
 #F7F5F7 - forum background in meet our leaders
