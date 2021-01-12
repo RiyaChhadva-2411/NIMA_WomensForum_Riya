@@ -72,8 +72,8 @@ function Leaders() {
             />
           </div>
           <div className="col-lg-5 col-sm-12 col-12 order-2">
-            <div className="Leader__subheading">Message from the leader</div><br/>
-            <p className="Leader__third" id="Leader__justify">
+            <div className="Leader__rightsubheading">Message from the leader</div><br/>
+            <p className="Leader__third" id="Leader__rightjustify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -87,7 +87,7 @@ function Leaders() {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillim dolore
             </p>
-            <a className="Leader__link" href="/">
+            <a className="Leader__rightlink" href="/">
               <u>COME JOIN US AND BECOME A MEMBER OF NIMA</u>
             </a>
           </div>

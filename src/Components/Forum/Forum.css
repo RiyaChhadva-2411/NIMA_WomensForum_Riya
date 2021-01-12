@@ -5,6 +5,9 @@
   /*   background: url("image.svg"), #f6f6f6; */
   background-repeat: no-repeat;
 }
+.form-container{
+  background-color: #E5E5E5 !important;
+}
 /*desktops*/
 @media only screen and (min-width: 1200px) {
   .mobile {
@@ -341,10 +344,22 @@
     font-weight: 600;
     font-size: 25px;
     line-height: 15px;
+    margin-left: 9px;
+  }
+  .Forum__txt {
+    margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 41px;
+    margin-right: 0px;
+    margin-left: 9px;
   }
   .bgImage {
     width: 100vw;
-    margin-top: -350px;
+    margin-top: -338px;
   }
   .Forum__row {
     margin-left: 0rem !important;
@@ -361,8 +376,9 @@
     font-size: 15px;
     line-height: 22px;
     color: #656565;
-    margin-bottom: 77px;
-    margin-right: 10px;
+    margin-bottom:20px;
+    margin-left:9px;
+    width:321px;
   }
 
   .Forum__select {
