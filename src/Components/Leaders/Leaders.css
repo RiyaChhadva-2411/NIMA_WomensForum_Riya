@@ -1,0 +1,202 @@
+/* For Extra large devices (large laptops and desktops) */
+
+.main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.middlediv {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* first row */
+.heading {
+  /* margin-top: 80px; */
+  font-weight: 900;
+  font-size: 35px;
+  margin-bottom: 21px;
+}
+.paragraph {
+  font-size: 15px;
+  /* font-weight: normal; */
+}
+#justify {
+  text-align: justify;
+  font-weight: 200;
+}
+/* second row */
+.image1 {
+  height: 390px;
+  width: 300px;
+  border-radius: 1rem;
+  margin-top: 55px;
+}
+.first {
+  float: right;
+  position: absolute;
+  left: 370px;
+  bottom: 0;
+  font-size: 18px;
+  text-align: left;
+}
+.second {
+  color: #2145b7;
+  font-size: 18px;
+  font-weight: bold;
+}
+.subheading {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 50px;
+  text-align: justify;
+}
+.link {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Third row */
+.mainrow {
+  /* margin-top: 144px; */
+  margin-bottom: 72px;
+}
+.image2 {
+  height: 396px;
+  width: 316px;
+  border-radius: 1rem;
+  float: right;
+  margin-top: 55px;
+}
+.fourth {
+  float: left;
+  position: absolute;
+  text-align: right;
+  padding-top: 300px;
+  right: 370px;
+  font-size: 18px;
+}
+
+/*For small devices*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #leader-css {
+    margin-left: -25px;
+  }
+  .middlediv {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .image1 {
+    height: 350px;
+    width: 250px;
+  }
+  .image2 {
+    height: 350px;
+    width: 250px;
+    float: right;
+  }
+  .paragraph {
+    font-size: 17px;
+  }
+  .first {
+    left: 310px;
+  }
+  .link {
+    font-size: 17px;
+  }
+  .fourth {
+    right: 310px;
+    padding-top: 220px;
+  }
+}
+
+/*For extra small devices*/
+@media (max-width: 575px) and (min-width: 340px) {
+  .main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .middlediv {
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+    padding: 0 15px;
+    background-color: #eef3fe;
+  }
+  .image1 {
+    height: 250px;
+    width: auto;
+  }
+  .image2 {
+    height: 250px;
+    width: auto;
+    float: right;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+  .first {
+    left: 220px;
+  }
+  .link {
+    font-size: 17px;
+  }
+  .fourth {
+    right: 225px;
+    padding-top: 190px;
+  }
+  .subheading {
+    margin-top: 100px;
+  }
+  .second {
+    font-size: 15px;
+  }
+  .details {
+    font-size: 14px;
+  }
+}
+/*For extra extra small devices*/
+@media (max-width: 340px) {
+  .main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .middlediv {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #eef3fe;
+  }
+  .image1 {
+    height: 230px;
+    width: auto;
+  }
+  .image2 {
+    height: 230px;
+    width: auto;
+    float: right;
+  }
+  .paragraph {
+    font-size: 12px;
+  }
+  .first {
+    left: 225px;
+  }
+  .link {
+    font-size: 13px;
+  }
+  .fourth {
+    right: 220px;
+    padding-top: 190px;
+  }
+  .subheading {
+    margin-top: 100px;
+  }
+  .second {
+    font-size: 13px;
+  }
+  .details {
+    font-size: 12px;
+  }
+}
