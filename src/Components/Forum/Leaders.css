@@ -47,7 +47,21 @@
 /*tablet*/
 @media only screen and (min-width: 481px) and (max-width: 800px) {
   .card-title {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.30rem;
+  }
+  .card-image{
+    position: absolute;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+    top: -3rem;
+    left: 35%;
   }
 }
 /*bigger tablets*/

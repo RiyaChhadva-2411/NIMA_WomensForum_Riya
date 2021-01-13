@@ -319,10 +319,29 @@
   }
   .Hero__hero-img {
     position: absolute;
-    top: 220px;
-    right: 60px;
+    top: 120px;
+    right: -10px;
     z-index: 9999;
     height: 370px;
+  }
+  .Hero__heading{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:25px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 85px;
+  }
+  .Hero__paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #656565;
+    margin-top: 15px;
+    width: 400px;
+    margin-left: 85px;
   }
   .Hero__hero-row {
     margin-left: 0px;
@@ -357,17 +376,18 @@
   .Hero__pre-title {
     font-size: 18px;
     color: #2145b7;
-    margin-left: 120px;
+    margin-left: 35px;
 
   }
 
   .Hero__hero-title {
     margin-top: 8px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
-    letter-spacing: -1px;
-    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-left: 35px;
     width: 500px;
+    line-height: normal;
 
   }
   .Hero__highlight-cyan {
@@ -377,17 +397,20 @@
   }
   .Hero__hero-content {
     margin-top: 16px;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 450;
+    margin-left: 35px;
+    width: 300px;
   }
   .Hero__highlight-bottom {
     margin-top: -25px;
   }
   /* rules and member ship Registration link div */
   .Hero__cta {
-    margin-top: 30px;
-    font-size: 18px;
+    margin-top:10px;
+    font-size: 15px;
     color: #2145b7;
+    margin-left: 35px;
   }
 
   /* this class has svg icon  */
@@ -398,11 +421,11 @@
 
   /* the class of div containing both the rectangular cards */
   .Hero__count {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   /*  rectangle cards , took differently cuz 2nd card had to be given margin left*/
-  .hero__card1 {
+  .Hero__card1 {
     width: 80px;
     height: 85px;
     border: none;
@@ -411,6 +434,7 @@
     padding: 18px 12px 9px 12px;
     background-color: #00c78c;
     color: white;
+    margin-left: 35px;
   }
   .Hero__item1 {
     grid-column-end: 15;
@@ -454,9 +478,4 @@
     font-size: 11px;
     line-height: 1rem;
   }
-}
-
-/*For medium and slightly large devices*/
-@media(min-width: 800px) and (max-width: 1200px){
-  
 }
