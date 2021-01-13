@@ -355,15 +355,20 @@
     grid-column-end: 9;
   }
   .Hero__pre-title {
-    font-size: 12px;
+    font-size: 18px;
     color: #2145b7;
+    margin-left: 120px;
+
   }
 
   .Hero__hero-title {
     margin-top: 8px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     letter-spacing: -1px;
+    margin-left: 20px;
+    width: 500px;
+
   }
   .Hero__highlight-cyan {
     border-bottom: 10px solid #83f3d1;
