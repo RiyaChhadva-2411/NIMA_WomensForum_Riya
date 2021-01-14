@@ -479,3 +479,8 @@
     line-height: 1rem;
   }
 }
+
+/*For medium and large devices*/
+@media(min-width: 800px) and (max-width: 1200px){
+  
+}
