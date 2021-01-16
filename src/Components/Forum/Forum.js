@@ -191,7 +191,7 @@ class Forum extends Component {
             </div>
           </div>
         </div>
-        <img className="bgImage" src={formBg} alt="background"/>
+        {/* <img className="bgImage" src={formBg} alt="background"/> */}
       </div>
     );
   }

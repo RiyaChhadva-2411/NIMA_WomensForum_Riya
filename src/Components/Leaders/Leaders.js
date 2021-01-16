@@ -1,6 +1,9 @@
 import React from "react";
 import "./Leaders.css";
 import temp from "./temp.PNG";
+import women1 from "./women1.png";
+import women2 from "./women2.png";
+import women3 from "./women3.png";
 function Leaders() {
   return (
     <div className="leaders-component" id="shift-left">
@@ -12,11 +15,9 @@ function Leaders() {
           <div className="col-lg-7 col-sm-12 col-12">
             <img
               className="Leader__image1"
-              src={temp}
+              src={women2}
               alt="Leader"
             />
-            
-
             <div className="Leader__first">
               <div className="Leader__second">DR. MRS. SADHANA KULKARNI</div>
               <div className="Leader__details">
@@ -67,7 +68,7 @@ function Leaders() {
             </div>
             <img
               className="Leader__image2"
-              src={temp}
+              src={women1}
               alt="Leader"
             />
           </div>
@@ -100,7 +101,7 @@ function Leaders() {
           <div className="col-lg-7 col-sm-12 col-12">
             <img
               className="Leader__image1"
-              src={temp}
+              src={women3}
               alt="Leader"
             />
             <div className="Leader__first">

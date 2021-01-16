@@ -1,5 +1,4 @@
 /* For Extra large devices (large laptops and desktops) */
-
 .Leader__main {
   margin-left: 100px;
   margin-right: 100px;
@@ -68,7 +67,7 @@
   line-height: 15px;
   margin-bottom: 16px;
   width: 293px;
-  
+  float: right;
 }
 .Leader__details{
   font-size: 18px;
@@ -92,6 +91,7 @@
   height: 66px;
   color: #000000;
   text-align: right;
+  float: right;
 }
 .Leader__rightphone{
   margin-top: 12px;
@@ -217,6 +217,7 @@
     margin-bottom: 16px;
     width: 140px;
     text-align:end;
+    float: right;
   }
   .Leader__details{
     font-size: 13px;
@@ -239,7 +240,7 @@
     width: 153px;
     height: 66px;
     color: #000000;
-    text-align: right;
+    float: right;
   }
   .Leader__rightphone{
     margin-top: 12px;
@@ -293,7 +294,6 @@
     position: absolute;
     padding-top: 140px;
     right: 220px;
-    font-size: 18px;
   }
 }
 
@@ -355,7 +355,7 @@
     font-size: 18px;
     margin-top: 30px;
     text-align: justify;
-    margin-right: 24px;
+     margin-right: 24px;
     margin-left: 35px;
   }
   .Leader__second {
@@ -368,20 +368,20 @@
     width: 280px;
     text-align:left;
 }
-  .Leader__rightsecond{
-    color: #2145b7;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    line-height: 15px;
-    margin-bottom: 16px;
-    width: 262px;
-    text-align:end;
-  }
+.Leader__rightsecond{
+  color: #2145b7;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  line-height: 15px;
+  margin-bottom: 16px;
+  width: 293px;
+  float: right;
+  text-align: end;
+}
   .Leader__image2 {
     height: 250px;
     width: 190px;
-    float: right;
     margin-right: 35px;
   }
   .Leader__paragraph {
@@ -405,6 +405,16 @@
     height: 66px;
     color: #000000;
   }
+  .Leader__rightdetails{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    width: 153px;
+    height: 66px;
+    color: #000000;
+    float: right;
+  }
   .Leader__link {
     font-size: 15px;
     margin-left: 35px;
@@ -416,12 +426,96 @@
     margin-left: 35px;
   }
   .Leader__fourth {
-    right: 265px;
-    padding-top: 160px;
+    float: left;
+    position: absolute;
+    padding-top: 170px;
+    right: 340px;
   }
+  
 }
-
 /*For medium and large devices*/
 @media(min-width: 800px) and (max-width: 1200px){
+  .Leader__image1{
+    height: 350px;
+    width: 270px;
+    border-radius: 1rem;
+    margin-top:55px;
+  }
+  .Leader__image2{
+    height: 350px;
+    width: 270px;
+    border-radius: 1rem;
+    float: right;
+    margin-top: 55px;
+  }
+  .Leader__main {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
   
+  .Leader__middlediv {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .Leader__first{
+    float: right;
+    position: absolute;
+    left: 320px;
+    bottom: 0;
+    top: 264px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .Leader__fourth {
+    float: left;
+    position: absolute;
+    padding-top:250px;
+    right: 320px;
+    font-size: 18px;
+  }
+  
+  .Leader__second{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .Leader__rightsecond{
+    font-size: 15px;
+    width: 213px;
+    float: right;
+    text-align: right;
+    line-height: 20px;
+  }
+  .Leader__details{
+    font-size: 15px;
+    width: 139px;
+  }
+  .Leader__rightdetails{
+    font-size: 15px;
+    width: 136px;
+    float: right;
+    text-align: right;
+  }
+  .Leader__subheading{
+    font-size: 22px;
+  }
+  .Leader__rightsubheading{
+    font-size: 22px;
+  }
+  #Leader__justify{
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 0px;
+  }
+  #Leader__rightjustify{
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 0px;
+  }
+  .Leader__link{
+    font-size: 14px;
+  }
+  .Leader__rightlink{
+    font-size: 14px;
+  }
 }
