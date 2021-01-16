@@ -66,7 +66,8 @@
   font-family: 'Poppins', sans-serif;
   line-height: 15px;
   margin-bottom: 16px;
-  width: 293px;
+  width: 100%;
+  text-align:end;
   float: right;
 }
 .Leader__details{
@@ -137,7 +138,7 @@
 .Leader__fourth {
   float: left;
   position: absolute;
-  padding-top: 300px;
+  padding-top:320px;
   right: 370px;
   font-size: 18px;
 }
@@ -370,14 +371,12 @@
 }
 .Leader__rightsecond{
   color: #2145b7;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-  line-height: 15px;
+  line-height: 20px;
   margin-bottom: 16px;
-  width: 293px;
-  float: right;
-  text-align: end;
+  width: 213px;
 }
   .Leader__image2 {
     height: 250px;
@@ -410,10 +409,11 @@
     line-height: 22px;
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
-    width: 153px;
+    width: 136px;
     height: 66px;
     color: #000000;
     float: right;
+    text-align: right;
   }
   .Leader__link {
     font-size: 15px;
