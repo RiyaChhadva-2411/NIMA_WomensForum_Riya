@@ -24,7 +24,7 @@ function Leaders() {
                 President
                 Women's Forum
                 NIMA, Akola, India
-                <div className="Leader__phone">+911234567890</div>
+                <div className="Leader__phone"><svg className="Leader__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>+911234567890</div>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ function Leaders() {
                 President
                 Women's Forum
                 NIMA, Akola, India
-                <div className="Leader__rightphone">+911234567890</div>
+                <div className="Leader__rightphone"><svg className="Leader__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>+911234567890</div>
               </div>
             </div>
             <img
@@ -110,7 +110,7 @@ function Leaders() {
                 President
                 Women's Forum
                 NIMA, Akola, India
-                <div className="Leader__phone">+911234567890</div>
+                <div className="Leader__phone"><svg className="Leader__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>+911234567890</div>
               </div>
             </div>
           </div>

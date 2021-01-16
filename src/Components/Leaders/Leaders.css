@@ -3,7 +3,11 @@
   margin-left: 100px;
   margin-right: 100px;
 }
-
+.Leader__svg{
+  width: 20px;
+  height: 20px;
+  color: #000000;
+}
 .Leader__middlediv {
   margin-left: 100px;
   margin-right: 100px;
@@ -142,9 +146,13 @@
   right: 370px;
   font-size: 18px;
 }
-
 /*For small devices*/
 @media screen and (max-width: 576px){
+  .Leader__svg{
+    width: 15px;
+    height: 15px;
+    color: #000000;
+  }
   .Leader__main {
   margin-left: 24px;
   margin-right:24px;
@@ -369,15 +377,6 @@
     width: 280px;
     text-align:left;
 }
-.Leader__rightsecond{
-  color: #2145b7;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  line-height: 20px;
-  margin-bottom: 16px;
-  width: 213px;
-}
   .Leader__image2 {
     height: 250px;
     width: 190px;
@@ -395,6 +394,16 @@
     font-size: 18px;
     text-align: left;
   }
+  .Leader__fourth{
+    float:left;
+    position: absolute;
+    padding-top: 175px;
+    right:280px;
+    font-size: 18px;
+  }
+  .Leader__rightsecond{
+    font-size: 18px;
+  }
   .Leader__details{
     font-size: 15px;
     line-height: 20px;
@@ -406,14 +415,7 @@
   }
   .Leader__rightdetails{
     font-size: 15px;
-    line-height: 22px;
-    font-weight: normal;
-    font-family: 'Poppins', sans-serif;
-    width: 136px;
-    height: 66px;
-    color: #000000;
-    float: right;
-    text-align: right;
+    width: 140px;
   }
   .Leader__link {
     font-size: 15px;
@@ -425,12 +427,7 @@
     color: #2145b7;
     margin-left: 35px;
   }
-  .Leader__fourth {
-    float: left;
-    position: absolute;
-    padding-top: 170px;
-    right: 340px;
-  }
+  
   
 }
 /*For medium and large devices*/
