@@ -92,11 +92,11 @@ class Forum extends Component {
 
 
 
-  async componentDidMount(){
-    const response = await getForumData();
-    console.log(response.data.data);
-    this.setState({leaders:response.data.data});
-  }
+  // async componentDidMount(){
+  //   const response = await getForumData();
+  //   console.log(response.data.data);
+  //   this.setState({leaders:response.data.data});
+  // }
 
 
 

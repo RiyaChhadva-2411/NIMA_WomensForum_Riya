@@ -2,9 +2,10 @@
   padding-top: 114px;
   /* padding-bottom: 95px; */
   font-family: "Poppins", sans-serif;
-  /*   background: url("image.svg"), #f6f6f6; */
+  background: url("/src/Svg/Wave-Image.png"), #f6f6f6; 
   background-repeat: no-repeat;
-  padding-bottom: 200px;
+  background-size: 100% 100%;
+  padding-bottom: 130px;
 }
 .form-container{
   background-color: #F6F6F6 !important;
@@ -55,7 +56,8 @@
   }
   .Forum__select {
     width: 400px;
-    height: 53px;
+    height: 53px  !important;
+    border: none;
     background: #ffffff;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
@@ -354,6 +356,17 @@
 
 /*mobile*/
 @media screen and (max-width: 480px) {
+
+  .Forum__MainDiv {
+    padding-top: 114px;
+    /* padding-bottom: 95px; */
+    font-family: "Poppins", sans-serif;
+    background: url("/src/Svg/WaveMobile.png"), #f6f6f6; 
+    background-repeat: no-repeat;
+   /* background-size: 100% 100%;  */
+    padding-bottom: 100px;
+    background-position:bottom center;
+  }
   .desktop {
     display: none;
   }
