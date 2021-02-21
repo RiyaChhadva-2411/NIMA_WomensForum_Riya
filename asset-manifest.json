@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/deploy-womens_forum/static/css/main.237a4736.chunk.css",
-    "main.js": "/deploy-womens_forum/static/js/main.18a9b8c7.chunk.js",
-    "main.js.map": "/deploy-womens_forum/static/js/main.18a9b8c7.chunk.js.map",
+    "main.css": "/deploy-womens_forum/static/css/main.b9e5b008.chunk.css",
+    "main.js": "/deploy-womens_forum/static/js/main.c96a901d.chunk.js",
+    "main.js.map": "/deploy-womens_forum/static/js/main.c96a901d.chunk.js.map",
     "runtime-main.js": "/deploy-womens_forum/static/js/runtime-main.d18d7b09.js",
     "runtime-main.js.map": "/deploy-womens_forum/static/js/runtime-main.d18d7b09.js.map",
     "static/css/2.28efe657.chunk.css": "/deploy-womens_forum/static/css/2.28efe657.chunk.css",
-    "static/js/2.fc1f3294.chunk.js": "/deploy-womens_forum/static/js/2.fc1f3294.chunk.js",
-    "static/js/2.fc1f3294.chunk.js.map": "/deploy-womens_forum/static/js/2.fc1f3294.chunk.js.map",
+    "static/js/2.9efee77c.chunk.js": "/deploy-womens_forum/static/js/2.9efee77c.chunk.js",
+    "static/js/2.9efee77c.chunk.js.map": "/deploy-womens_forum/static/js/2.9efee77c.chunk.js.map",
     "index.html": "/deploy-womens_forum/index.html",
     "static/css/2.28efe657.chunk.css.map": "/deploy-womens_forum/static/css/2.28efe657.chunk.css.map",
-    "static/css/main.237a4736.chunk.css.map": "/deploy-womens_forum/static/css/main.237a4736.chunk.css.map",
-    "static/js/2.fc1f3294.chunk.js.LICENSE.txt": "/deploy-womens_forum/static/js/2.fc1f3294.chunk.js.LICENSE.txt",
+    "static/css/main.b9e5b008.chunk.css.map": "/deploy-womens_forum/static/css/main.b9e5b008.chunk.css.map",
+    "static/js/2.9efee77c.chunk.js.LICENSE.txt": "/deploy-womens_forum/static/js/2.9efee77c.chunk.js.LICENSE.txt",
     "static/media/Group 725.d3702b36.svg": "/deploy-womens_forum/static/media/Group 725.d3702b36.svg",
     "static/media/NIMA Hero-sm.e5b42c88.svg": "/deploy-womens_forum/static/media/NIMA Hero-sm.e5b42c88.svg",
+    "static/media/Forum.css": "/deploy-womens_forum/static/media/WaveMobile.2b5dc71d.png",
     "static/media/image.7a7c1f31.svg": "/deploy-womens_forum/static/media/image.7a7c1f31.svg",
     "static/media/img.617fedc8.jpeg": "/deploy-womens_forum/static/media/img.617fedc8.jpeg",
     "static/media/styles.css": "/deploy-womens_forum/static/media/revicons.e8746a62.woff",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.d18d7b09.js",
     "static/css/2.28efe657.chunk.css",
-    "static/js/2.fc1f3294.chunk.js",
-    "static/css/main.237a4736.chunk.css",
-    "static/js/main.18a9b8c7.chunk.js"
+    "static/js/2.9efee77c.chunk.js",
+    "static/css/main.b9e5b008.chunk.css",
+    "static/js/main.c96a901d.chunk.js"
   ]
 }
