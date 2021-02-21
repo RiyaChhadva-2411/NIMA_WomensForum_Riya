@@ -4,6 +4,7 @@ import "./Forum.css";
 import Leaders from "./Leaders";
 import image from "./Images/img.jpeg";
 import formBg from "./Images/image.svg";
+import {getForumData} from '../../ApiHandling/GetData';
 
 class Forum extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class Forum extends Component {
           img: image,
           name: "Dr. Ms. Himani Mishra",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
         {
           id: 2,
@@ -26,7 +27,7 @@ class Forum extends Component {
           img: image,
           name: "Ms. riya",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
         {
           id: 3,
@@ -35,7 +36,7 @@ class Forum extends Component {
           img: image,
           name: "Ms. r",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
         {
           id: 4,
@@ -44,7 +45,7 @@ class Forum extends Component {
           img: image,
           name: "Ms. y",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
         {
           id: 5,
@@ -53,7 +54,7 @@ class Forum extends Component {
           img: image,
           name: "Ms. a",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
         {
           id: 6,
@@ -62,7 +63,7 @@ class Forum extends Component {
           img: image,
           name: "Ms. H",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
         {
           id: 7,
@@ -71,7 +72,7 @@ class Forum extends Component {
           img: image,
           name: "Ms. u",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
         {
           id: 10,
@@ -80,7 +81,7 @@ class Forum extends Component {
           img: image,
           name: "Ms. Himani",
           designation: "President",
-          phoneNumber: "978165230",
+          contactNo: "978165230",
         },
       ],
       currentLeaders: [],
@@ -88,6 +89,16 @@ class Forum extends Component {
       place: "",
     };
   }
+
+
+
+  async componentDidMount(){
+    const response = await getForumData();
+    console.log(response.data.data);
+    this.setState({leaders:response.data.data});
+  }
+
+
 
   handleChangeBranch = (event) => {
     console.log(event.target.value);
@@ -184,7 +195,7 @@ class Forum extends Component {
                     <p className="card-title text-uppercase">{leader.name}</p>
                     <p>{leader.branch}</p>
                     <p> {leader.place}</p>
-                    <p>{leader.phoneNumber}</p>
+                    <p>{leader.contactNo}</p>
                   </div>
                 </div>
               ))}
